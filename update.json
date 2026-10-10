@@ -1,0 +1,10 @@
+{
+  "versionCode": 366,
+  "versionName": "1.0.365",
+  "releaseNotes": "### What's New in v1.0.365:\n\n• Freedom Scientific JAWS SBL Punctuation Alignment: Time colon punctuation rules (NumericColonText) fully unified. Colons between digits (e.g. 10:30) are now read naturally without symbols under None (level 0), and verbalized as 'colon' under Some (level 1), Most (level 2), and All (level 3).\n• Ultra-Low Latency & High-Frequency TalkBack Swiping: Pre-synthesis pipeline latency optimized to ~0.8ms for navigation tokens. Tested and verified across 200 consecutive TalkBack gesture swipe cycles with zero deadlocks and 6.52ms average turnaround.\n• Performance & Audio Pipeline: Integrated AudioFlinger FastTrack (48kHz) output (~4ms buffer delay), eliminating audio crackles and speaker pops with micro fade-out envelope.\n• Bug Fixes & Stability: Fixed mid-word Indic Visarga normalization in Devanagari text, resolved narrow non-breaking space issues, and hardened the engine against unhandled Unicode layout markers.",
+  "apkUrl": "https://github.com/karan12312/IBM-Eloquence-updates/releases/download/v1.0.365/IBM_Eloquence_1.0.365.apk",
+  "fileSize": 54560684,
+  "sha256": "7d564d458a36b17a6f2f005b6b7e776b5ae8c8c6dcc92e40308535835126c71a",
+  "mandatory": false,
+  "publishedAt": "2026-10-10T17:05:00Z"
+}
