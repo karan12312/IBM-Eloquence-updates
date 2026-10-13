@@ -1,10 +1,10 @@
 {
-  "versionCode": 368,
-  "versionName": "1.0.367",
-  "releaseNotes": "### What's New in v1.0.367:\n\n• Critical OTA Package Installer Fix: Resolved FileProvider root mapping collision where cache and files path names conflicted ('Failed to find configured root that contains ...'), allowing seamless in-app download and installation across all Android versions.\n• Freedom Scientific JAWS SBL Punctuation Alignment: Time colon punctuation rules (NumericColonText) fully unified. Colons between digits (e.g. 10:30) are now read naturally without symbols under None (level 0), and verbalized as 'colon' under Some (level 1), Most (level 2), and All (level 3).\n• Ultra-Low Latency & High-Frequency TalkBack Swiping: Pre-synthesis pipeline latency optimized to ~0.8ms for navigation tokens. Tested and verified across 200 consecutive TalkBack gesture swipe cycles with zero deadlocks and 6.52ms average turnaround.\n• Performance & Audio Pipeline: Integrated AudioFlinger FastTrack (48kHz) output (~4ms buffer delay), eliminating audio crackles and speaker pops with micro fade-out envelope.\n• Bug Fixes & Stability: Fixed mid-word Indic Visarga normalization in Devanagari text, resolved narrow non-breaking space issues, and hardened the engine against unhandled Unicode layout markers.",
-  "apkUrl": "https://github.com/karan12312/IBM-Eloquence-updates/releases/download/v1.0.367/IBM_Eloquence_1.0.367.apk",
-  "fileSize": 99237297,
-  "sha256": "30575bb296ef8e616f4752ed365c904cd52e4bc1009fe0bc5978ba0dbcab00c4",
+  "versionCode": 379,
+  "versionName": "1.0.378",
+  "releaseNotes": "### What's New in v1.0.378:\n\n• Fixed Abbreviations Expansion: Resolved an in-band annotation inversion issue (`da1` ON, `da0` OFF) that prevented abbreviations (such as 'Dr.', 'Mr.', 'St.') from being expanded by the speech engine.\n• Protected Dotted Abbreviation Pauses: Ensured sentence boundary and pause processing does not split dotted abbreviations (e.g. 'Dr. Smith'), keeping tokens intact for the synthesizer dictionary.\n• Longest-Match Dictionary Precedence: Multi-word dictionary entries at the same position now prioritize the longest match first (e.g. 'New York' over 'New').\n• Special Symbols & Punctuation Alignment: Copyright (©), Registered (®), and Trademark (™) are now recognized as punctuation rather than emoji, respecting punctuation verbosity levels (silent under None, spoken from Some up).\n• Plain Emoji Names: Cleaned up emoji readings to verbalize natural descriptions without the repetitive 'emoji' prefix and improved skin-tone modifier descriptions.\n• Hardened OTA Update Pipeline: Verified, safe self-cleaning update downloader and installer with full FileProvider path compatibility across all Android versions.",
+  "apkUrl": "https://github.com/karan12312/IBM-Eloquence-updates/raw/main/IBM%20Eloquence_1.0.378.apk",
+  "fileSize": 54585260,
+  "sha256": "5c3677d346b1e65fcfcde3279f0af6170122c84492799bdd9bc3971b5a42cb75",
   "mandatory": false,
-  "publishedAt": "2026-10-10T18:10:00Z"
+  "publishedAt": "2026-10-13T14:30:00Z"
 }
